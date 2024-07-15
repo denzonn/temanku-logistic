@@ -5,507 +5,339 @@
 @endsection
 
 @section('content')
-    <div class="site-wrap">
-        <div class="site-mobile-menu">
-            <div class="site-mobile-menu-header">
-                <div class="site-mobile-menu-close mt-3">
-                    <span class="icon-close2 js-menu-toggle"></span>
-                </div>
-            </div>
-            <div class="site-mobile-menu-body"></div>
-        </div>
-
-        <header class="site-navbar py-3" role="banner">
-
-            <div class="container">
-                <div class="row align-items-center">
-
-                    <div class="col-11 col-xl-2">
-                        <h1 class="active"><a href="index.html" class="text-white">Temanku Logistik</a></h1>
-                    </div>
-                    <div class="col-12 col-md-10 d-none d-xl-block">
-                        <nav class="site-navigation position-relative text-right" role="navigation">
-
-                            <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                                <li class="active"><a href="index.html">Home</a></li>
-                                <li><a href="about.html">Tentang Kami</a></li>
-                                <li class="has-children">
-                                    <a href="services.html">Pelayanan</a>
-                                    <ul class="dropdown">
-                                        <li><a href="industries.html">Cargo Darat</a></li>
-                                        <li><a href="industries.html">Cargo Laut</a></li>
-                                        <li><a href="industries.html">Cargo Udara</a></li>
-                                        <li><a href="industries.html">Gudang</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="industries.html">Kerjasama</a></li>
-                                <li><a href="blog.html">Closing</a></li>
-                                <li><a href="contact.html">Kontak Kami</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-
-
-                    <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a
-                            href="#" class="site-menu-toggle js-menu-toggle text-white"><span
-                                class="icon-menu h3"></span></a></div>
-
-                </div>
-
-            </div>
-    </div>
-
-    <div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_1.jpg);" data-aos="fade"
-        data-stellar-background-ratio="0.5">
+    <div class="hero overlay">
+        <img src="images/blob.svg" alt="" class="img-fluid blob">
         <div class="container">
-            <div class="row align-items-center justify-content-center text-center">
-
-                <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
-
-
-                    <h1 class="text-white font-weight-light mb-5 text-uppercase font-weight-bold">Menjadi Solusi
-                        Pengiriman Barang & Kendaraan</h1>
-
+            <div class="row align-items-center justify-content-between pt-5">
+                <div class="col-lg-6 text-center text-lg-start pe-lg-5">
+                    <h1 class="heading text-white mb-3" data-aos="fade-up">Pengiriman Barang dan Kendaraan Mulai Rp.3.500/Kg
+                    </h1>
+                    <p class="text-white mb-5" data-aos="fade-up" data-aos-delay="100">Solusi terbaik pengiriman Anda!</p>
+                    <div class="align-items-center mb-5 mm" data-aos="fade-up" data-aos-delay="200">
+                        <a href="https://wa.me/message/VCWHU6KIILNPF1" class="btn btn-outline-white-reverse me-4">Hubungi
+                            Segera</a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="img-wrap">
+                        <img src="images/gambar1.jpg" alt="Image" class="img-fluid rounded">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row align-items-center no-gutters align-items-stretch overlap-section">
-            <div class="col-md-4">
-                <div class="feature-1 pricing h-100 text-center">
-                    <div class="icon">
-                        <span class="icon-dollar"></span>
+    <div class="section">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <img src="images/gambar4.jpg" alt="Image" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-4 ps-lg-2">
+                    <div class="mb-5">
+                        <h2 class="text-black h4">Visi & Misi</h2>
                     </div>
-                    <h2 class="my-4 heading">Best Prices</h2>
-                    <p>Harga Terjangkau dan Terjamin Murah. Menjadi pilihan pas mitra kami.</p>
-                    <h2>Mulai Rp.3.500/Kg</h2>
+                    <div class="d-flex mb-3 service-alt">
+                        <div>
+                            <span class="bi-wallet-fill me-4"></span>
+                        </div>
+                        <div>
+                            <h3>Visi</h3>
+                            <p>Menjadi ekspedisi yang memberikan Solusi dan Kemudahan untuk konsumen</p>
+                            <p>Menjadi mitra usaha yang baik dengan pelaku UMKM dengan menghadirkan ekspedisi dengan Harga
+                                Terjangkau</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mb-3 service-alt">
+                        <div>
+                            <span class="bi-pie-chart-fill me-4"></span>
+                        </div>
+                        <div>
+                            <h3>Misi</h3>
+                            <p>Membuka dan menciptakan lapangan kerja</p>
+                            <p>Memberikan manfaat untuk para pekerja dan juga konsumen, dengan layanan yang Prima dan Harga
+                                yang Terjangkau</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="section sec-features">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="feature d-flex">
+                        <span class="bi-bag-check-fill"></span>
+                        <div>
+                            <h3>Pembayaran Mudah</h3>
+                            <p>Pembayaran dapat dilakukan saat pembuatan resi atau setelah barang berangkat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature d-flex">
+                        <span class="bi-wallet-fill"></span>
+                        <div>
+                            <h3>Free Packing</h3>
+                            <p>Konsumen tidak dikenakan biaya tambahan untuk pengemasan barang dan kendaraan yang akan
+                                dikirim.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature d-flex">
+                        <span class="bi-pie-chart-fill"></span>
+                        <div>
+                            <h3>Tracking</h3>
+                            <p>Pemantauan tracking barang dan kendaraan melalui website resmi Temanku Logistik.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="free-quote bg-dark h-100">
-                    <h2 class="my-4 heading  text-center">Cek Resi Disini:</h2>
-                    <form method="post">
-                        <div class="form-group">
-                            <label for="fq_name">No. Resi</label>
-                            <input type="text" class="form-control btn-block" id="fq_name" name="fq_name"
-                                placeholder="Enter Name">
-                            <a href="resitemanku.html"></a>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 order-lg-2 mb-4 mb-lg-0">
+                    <img src="{{ asset('images/proper_temanku.png') }}" alt="Image" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-5 pe-lg-5">
+                    <div class="mb-5">
+                        <h2 class="text-black h4">Profil Perusahaan</h2>
+                    </div>
+                    <div class="d-flex mb-3 service-alt">
+                        <div>
                         </div>
-                        <div class="form-group">
-                            <input type="submit" class="btn btn-primary text-white py-2 px-4 btn-block" value="Cek">
+                        <div>
+                            <p>Temanku Logistik Indonesia merupakan jasa pengiriman barang, kendaraan dan alat berat
+                                keseluruh nusantara dengan pelayanan prima yang ditunjang SDM dan unit operasional yang
+                                memadai. Serta menjalin beberapa cabang di seluruh Nusantara, dengan layanan via Laut, Darat
+                                dan Udara. Siap menjalin kerjasama perusahaan dan vendor dengan tempo tertentu.</p>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="feature-3 pricing h-100 text-center">
-                    <div class="icon">
-                        <span class="icon-phone"></span>
+        </div>
+    </div>
+    </div>
+
+    <div class="section sec-services">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-5 mx-auto text-center" data-aos="fade-up">
+                    <h2 class="heading text-primary">Service</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up">
+
+                    <div class="service text-center">
+                        <span class="bi-cash-coin"></span>
+                        <div>
+                            <h3>Harga Terjangkau</h3>
+                            <p class="mb-4">Harga terjangkau dan terbaik untuk kebutuhan konsumen.</p>
+                            <p><a href="#" class="btn btn-outline-primary py-2 px-3">Read more</a></p>
+                        </div>
                     </div>
-                    <h2 class="my-4 heading">24/7 Support</h2>
-                    <p>Layanan maksimal hingga 24 Jam melalui Admin</p>
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service text-center">
+                        <span class="bi-chat-text"></span>
+                        <div>
+                            <h3>Pelayanan Terbaik</h3>
+                            <p class="mb-4">Menjalin pelayanan terbaik untuk konsumen dan komunikasi yang tetap terjalin.
+                            </p>
+                            <p><a href="#" class="btn btn-outline-primary py-2 px-3">Read more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="service text-center">
+                        <span class="bi-gear"></span>
+                        <div>
+                            <h3>Evaluasi</h3>
+                            <p class="mb-4">Menerima masukan atau saran dari konsumen yang menjadi suatu keutamaan kami.
+                            </p>
+                            <p><a href="#" class="btn btn-outline-primary py-2 px-3">Read more</a></p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service text-center">
+                        <span class="bi-layers"></span>
+                        <div>
+                            <h3>Handling & Door to Door Service</h3>
+                            <p class="mb-4">Siap mejalin kerjasama dan pengantaran pengiriman sampai tujuan.</p>
+                            <p><a href="#" class="btn btn-outline-primary py-2 px-3">Read more</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section sec-cta overlay" style="background-image: url('images/gambar3.jpg')">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5" data-aos="fade-up" data-aos-delay="0">
+                    <h2 class="heading">Mau tanya min?</h2>
+                    <p>Tanyakan kebutuhan pengiriman Anda melalui kontak yang tersedia.</p>
+                </div>
+                <div class="col-lg-5 text-end" data-aos="fade-up" data-aos-delay="100">
+                    <a href="https://wa.me/message/VCWHU6KIILNPF1" class="btn btn-outline-white-reverse">Hubungi
+                        Segera</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section sec-portfolio bg-light pb-5	">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-5 mx-auto text-center ">
+                    <h2 class="heading text-primary mb-3" data-aos="fade-up" data-aos-delay="0">Pengiriman Kami</h2>
+                    <p class="mb-4" data-aos="fade-up" data-aos-delay="100">Kepercayaan dan kepuasan konsumen adalah
+                        keberhasilan kami.</p>
+
+                    <div id="post-slider-nav" data-aos="fade-up" data-aos-delay="200">
+                        <button class="btn btn-primary py-2" class="prev" data-controls="prev">Back</button>
+                        <button class="btn btn-primary py-2" class="next" data-controls="next">Next</button>
+                    </div>
+
                 </div>
             </div>
         </div>
 
-        <div class="site-section">
-            <div class="container">
-                <div class="row justify-content-center mb-5">
-                    <div class="col-md-7 text-center border-primary">
-                        <h2 class="mb-0 text-primary">Pelayanan Pengirimian</h2>
-                        <p class="color-black-opacity-5"></p>
-                    </div>
-                </div>
-                <div class="row align-items-stretch">
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                        <div class="unit-4 d-flex">
-                            <div class="unit-4-icon mr-4"><span class="text-primary flaticon-travel"></span></div>
-                            <div>
-                                <h3>Via Udara</h3>
-                                <p>Pengiriman via udara adalah proses pengangkutan barang atau penumpang melalui jalur
-                                    udara menggunakan pesawat terbang.</p>
-                                <p class="mb-0"><a href="#">Learn More</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                        <div class="unit-4 d-flex">
-                            <div class="unit-4-icon mr-4"><span
-                                    class="text-primary flaticon-sea-ship-with-containers"></span></div>
-                            <div>
-                                <h3>Via Laut</h3>
-                                <p>Pengiriman via laut adalah proses pengiriman barang dan kendaraan melalui jalur laut
-                                    menggunakan kapal kargo atau kapal kontainer.</p>
-                                <p class="mb-0"><a href="#">Learn More</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                        <div class="unit-4 d-flex">
-                            <div class="unit-4-icon mr-4"><span class="text-primary flaticon-frontal-truck"></span>
-                            </div>
-                            <div>
-                                <h3>Via Darat</h3>
-                                <p>Pengiriman via darat adalah proses pengangkutan barang atau penumpang melalui jalan
-                                    raya atau rel kereta api. </p>
-                                <p class="mb-0"><a href="#">Learn More</a></p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-
-        <div class="site-section block-13">
-            <!-- <div class="container"></div> -->
-
-            <div class="owl-carousel nonloop-block-13">
-                <div>
-                    <a href="#" class="unit-1 text-center">
-                        <img src="{{ asset('images/img_1.jpg') }}" alt="Image" class="img-fluid">
-                        <div class="unit-1-text">
-                            <h3 class="unit-1-heading">Gudang</h3>
-                            <p class="px-5">Memiliki fasilitas gudang yang digunakan untuk menyimpan sebelum
-                                dikirimkan ke tujuan akhir.</p>
+        <div class="post-slider-wrap" data-aos="fade-up" data-aos-delay="300">
+            <div id="post-slider" class="post-slider">
+                <div class="item">
+                    <a href="case-study.html" class="card d-block">
+                        <img src="{{ asset('images/closing1.png') }}" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Pengiriman Barang & Kendaraan</h5>
                         </div>
                     </a>
                 </div>
 
-                <div>
-                    <a href="#" class="unit-1 text-center">
-                        <img src="{{ asset('images/img_2.jpg') }}" alt="Image" class="img-fluid">
-                        <div class="unit-1-text">
-                            <h3 class="unit-1-heading">Airport</h3>
-                            <p class="px-5">Bandara untuk ekspedisi atau kargo adalah fasilitas yang didedikasikan
-                                untuk menangani pengiriman barang.</p>
+                <div class="item">
+                    <a href="case-study.html" class="card">
+                        <img src="{{ asset('images/closing2.png') }}" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Pengiriman Skincare & Kosmetik</h5>
                         </div>
                     </a>
                 </div>
 
-                <div>
-                    <a href="#" class="unit-1 text-center">
-                        <img src="{{ asset('images/img_3.jpg') }}" alt="Image" class="img-fluid">
-                        <div class="unit-1-text">
-                            <h3 class="unit-1-heading">Transportasi/Armada</h3>
-                            <p class="px-5">Mobil pickup adalah salah satu kendaraan yang kami gunakan dalam
-                                melakukan pengantaran barang ekspedisi.</p>
+                <div class="item">
+                    <a href="case-study.html" class="card">
+                        <img src="{{ asset('images/closing3.png') }}" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Pindahan Rumah/Tugas</h5>
                         </div>
                     </a>
                 </div>
 
-                <div>
-                    <a href="#" class="unit-1 text-center">
-                        <img src="{{ asset('images/img_4.jpg') }}" alt="Image" class="img-fluid">
-                        <div class="unit-1-text">
-                            <h3 class="unit-1-heading">Kapal</h3>
-                            <p class="px-5">Kapal adalah sumber utama dalam pengiriman barang dan kendaraan konsumen
-                                sampai ketujuan.</p>
+                <div class="item">
+                    <a href="case-study.html" class="card">
+                        <img src="{{ asset('images/closing4.png') }}" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Pengiriman Motor</h5>
                         </div>
                     </a>
                 </div>
 
-                <div>
-                    <a href="#" class="unit-1 text-center">
-                        <img src="{{ asset('images/img_5.jpg') }}" alt="Image" class="img-fluid">
-                        <div class="unit-1-text">
-                            <h3 class="unit-1-heading">Kontainer</h3>
-                            <p class="px-5">Kontainer yang digunakan TANTO </p>
+                <div class="item">
+                    <a href="case-study.html" class="card">
+                        <img src="{{ asset('images/closing5.png') }}" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Pengiriman Mobil</h5>
                         </div>
                     </a>
                 </div>
-
-
             </div>
         </div>
+    </div>
 
-        <div class="site-section bg-light">
-            <div class="container">
-                <div class="row justify-content-center mb-5">
-                    <div class="col-md-7 text-center border-primary">
-                        <h2 class="font-weight-light text-primary">Pelayanan</h2>
-                        <p class="color-black-opacity-5">Temanku Logistik</p>
-                    </div>
+    <div class="section sec-testimonial bg-light">
+        <div class="container">
+            <div class="row mb-5 justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <h2 class="heading text-primary">Testimoni</h2>
                 </div>
-                <div class="row align-items-stretch">
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                        <div class="unit-4 d-flex">
-                            <div class="unit-4-icon mr-4"><span class="text-primary flaticon-travel"></span></div>
-                            <div>
-                                <h3>Air Air Freight</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae
-                                    vitae eligendi at.</p>
-                                <p><a href="#">Learn More</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                        <div class="unit-4 d-flex">
-                            <div class="unit-4-icon mr-4"><span
-                                    class="text-primary flaticon-sea-ship-with-containers"></span></div>
-                            <div>
-                                <h3>Ocean Freight</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae
-                                    vitae eligendi at.</p>
-                                <p><a href="#">Learn More</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                        <div class="unit-4 d-flex">
-                            <div class="unit-4-icon mr-4"><span class="text-primary flaticon-frontal-truck"></span>
-                            </div>
-                            <div>
-                                <h3>Ground Shipping</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae
-                                    vitae eligendi at.</p>
-                                <p><a href="#">Learn More</a></p>
-                            </div>
-                        </div>
-                    </div>
 
-
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                        <div class="unit-4 d-flex">
-                            <div class="unit-4-icon mr-4"><span class="text-primary flaticon-barn"></span></div>
-                            <div>
-                                <h3>Warehousing</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae
-                                    vitae eligendi at.</p>
-                                <p><a href="#">Learn More</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                        <div class="unit-4 d-flex">
-                            <div class="unit-4-icon mr-4"><span class="text-primary flaticon-platform"></span></div>
-                            <div>
-                                <h3>Storage</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae
-                                    vitae eligendi at.</p>
-                                <p><a href="#">Learn More</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                        <div class="unit-4 d-flex">
-                            <div class="unit-4-icon mr-4"><span class="text-primary flaticon-car"></span></div>
-                            <div>
-                                <h3>Delivery Van</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae
-                                    vitae eligendi at.</p>
-                                <p><a href="#">Learn More</a></p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
             </div>
-        </div>
 
-        <div class="site-blocks-cover overlay inner-page-cover"
-            style="background-image: url(images/hero_bg_2.jpg); background-attachment: fixed;">
-            <div class="container">
-                <div class="row align-items-center justify-content-center text-center">
 
-                    <div class="col-md-7" data-aos="fade-up" data-aos-delay="400">
-                        <a href="https://vimeo.com/channels/staffpicks/93951774"
-                            class="play-single-big mb-4 d-inline-block popup-vimeo"><span class="icon-play"></span></a>
-                        <h2 class="text-white font-weight-light mb-5 h1">View Our Services By Watching This Short Video
-                        </h2>
+            <div class="testimonial-slider-wrap">
+                <div class="testimonial-slider" id="testimonial-slider">
+                    <div class="item">
+                        <div class="testimonial-half d-lg-flex bg-white">
+                            <div class="img" style="background-image: url('images/img-4.jpg')">
 
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="site-section border-bottom">
-            <div class="container">
-
-                <div class="row justify-content-center mb-5">
-                    <div class="col-md-7 text-center border-primary">
-                        <h2 class="font-weight-light text-primary">Testimonials</h2>
-                    </div>
-                </div>
-
-                <div class="slide-one-item home-slider owl-carousel">
-                    <div>
-                        <div class="testimonial">
-                            <figure class="mb-4">
-                                <img src="{{ asset('images/person_3.jpg') }}" alt="Image" class="img-fluid mb-3">
-                                <p>John Smith</p>
-                            </figure>
-                            <blockquote>
-                                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde
-                                    reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae
-                                    illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;
-                                </p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="testimonial">
-                            <figure class="mb-4">
-                                <img src="{{ asset('images/person_2.jpg') }}" alt="Image" class="img-fluid mb-3">
-                                <p>Christine Aguilar</p>
-                            </figure>
-                            <blockquote>
-                                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde
-                                    reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae
-                                    illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;
-                                </p>
-                            </blockquote>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="testimonial">
-                            <figure class="mb-4">
-                                <img src="{{ asset('images/person_4.jpg') }}" alt="Image" class="img-fluid mb-3">
-                                <p>Robert Spears</p>
-                            </figure>
-                            <blockquote>
-                                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde
-                                    reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae
-                                    illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;
-                                </p>
-                            </blockquote>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="testimonial">
-                            <figure class="mb-4">
-                                <img src="{{ asset('images/person_5.jpg') }}" alt="Image" class="img-fluid mb-3">
-                                <p>Bruce Rogers</p>
-                            </figure>
-                            <blockquote>
-                                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde
-                                    reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae
-                                    illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;
-                                </p>
-                            </blockquote>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="site-section">
-            <div class="container">
-                <div class="row justify-content-center mb-5">
-                    <div class="col-md-7 text-center border-primary">
-                        <h2 class="font-weight-light text-primary">Our Blog</h2>
-                        <p class="color-black-opacity-5">See Our Daily News &amp; Updates</p>
-                    </div>
-                </div>
-                <div class="row mb-3 align-items-stretch">
-                    <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
-                        <div class="h-entry">
-                            <img src="{{ asset('images/blog_1.jpg') }}" alt="Image" class="img-fluid">
-                            <h2 class="font-size-regular"><a href="#">Warehousing Your Packages</a></h2>
-                            <div class="meta mb-4">by Theresa Winston <span class="mx-2">&bullet;</span> Jan 18,
-                                2019 at 2:00 pm <span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores
-                                sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
-                        <div class="h-entry">
-                            <img src="{{ asset('images/blog_2.jpg') }}" alt="Image" class="img-fluid">
-                            <h2 class="font-size-regular"><a href="#">Warehousing Your Packages</a></h2>
-                            <div class="meta mb-4">by Theresa Winston <span class="mx-2">&bullet;</span> Jan 18,
-                                2019 at 2:00 pm <span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores
-                                sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="site-section border-top">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-12">
-                        <h2 class="mb-5 text-black">Try Our Services</h2>
-                        <p class="mb-0"><a href="booking.html" class="btn btn-primary py-3 px-5 text-white">Get
-                                Started</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <footer class="site-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-9">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <h2 class="footer-heading mb-4">Quick Links</h2>
-                                <ul class="list-unstyled">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Testimonials</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
                             </div>
-                            <div class="col-md-3">
-                                <h2 class="footer-heading mb-4">Features</h2>
-                                <ul class="list-unstyled">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Testimonials</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3">
-                                <h2 class="footer-heading mb-4">Follow Us</h2>
-                                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
-                        <form action="#" method="post">
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control border-secondary text-white bg-transparent"
-                                    placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary text-white" type="button"
-                                        id="button-addon2">Send</button>
+                            <div class="text">
+                                <blockquote>
+                                    <p>Memiliki banyak jangkauan dan siap handling kendaraan sampai ketujuan dan spesifik
+                                        dalam meemriksa kendaraan.</p>
+                                </blockquote>
+                                <div class="author">
+                                    <strong class="d-block text-black">Haspo Joni</strong>
+                                    <span>Pengiriman Mobil Medan-Manado</span>
                                 </div>
                             </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="row pt-5 mt-5 text-center">
-                    <div class="col-md-12">
-                        <a class='blantershow-chat' href='javascript:void' title='Show Chat'><i
-                                class='fab fa-whatsapp'></i>How can I help you?</a>
-                        <div class="border-top pt-5">
-                            <p>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy;
-                                <script>
-                                    document.write(new Date().getFullYear());
-                                </script> All rights reserved | This template is made with <i
-                                    class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                                    target="_blank">Colorlib</a>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            </p>
                         </div>
                     </div>
 
+                    <div class="item">
+                        <div class="testimonial-half d-lg-flex bg-white">
+                            <div class="img" style="background-image: url('images/img-3.jpg')">
+
+                            </div>
+                            <div class="text">
+                                <blockquote>
+                                    <p>Siap berkomunikasi hingga larut malam dan memberi informasi jelas kepada konsumen.
+                                    </p>
+                                </blockquote>
+                                <div class="author">
+                                    <strong class="d-block text-black">Wahyudi</strong>
+                                    <span>Pengiriman Barang Makassar-Jakarta</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="testimonial-half d-lg-flex bg-white">
+                            <div class="img" style="background-image: url('images/img-2.jpg')">
+
+                            </div>
+                            <div class="text">
+                                <blockquote>
+                                    <p>Menjaga barang aman dan amanah sampai ke tujuan</p>
+                                </blockquote>
+                                <div class="author">
+                                    <strong class="d-block text-black">Muh Abi</strong>
+                                    <span>Pengiriman Motor dan Barang Jakarta-Makassar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </footer>
+        </div>
     </div>
 @endsection

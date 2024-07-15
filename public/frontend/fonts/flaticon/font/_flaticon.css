@@ -1,6 +1,6 @@
 /*
     Flaticon icon font: Flaticon
-    Creation date: 24/01/2019 09:02
+    Creation date: 27/12/2020 05:48
     */
 @font-face {
   font-family: "Flaticon";
@@ -28,20 +28,20 @@
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased; }
 
-.flaticon-frontal-truck:before {
+.flaticon-financial:before {
   content: "\f100"; }
 
-.flaticon-sea-ship-with-containers:before {
+.flaticon-security:before {
   content: "\f101"; }
 
-.flaticon-car:before {
+.flaticon-savings:before {
   content: "\f102"; }
 
-.flaticon-platform:before {
+.flaticon-phone-call:before {
   content: "\f103"; }
 
-.flaticon-travel:before {
+.flaticon-money:before {
   content: "\f104"; }
 
-.flaticon-barn:before {
+.flaticon-pie-chart:before {
   content: "\f105"; }

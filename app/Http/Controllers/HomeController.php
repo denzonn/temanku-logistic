@@ -8,8 +8,22 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index(){
-        $blog = Blog::take(6)->get();
+        return view('pages.home');
+    }
 
-        return view('pages.home', compact('blog'));
+    public function service(){
+        return view('pages.service');
+    }
+
+    public function about(){
+        return view('pages.about');
+    }
+
+    public function contact(){
+        return view('pages.contact');
+    }
+
+    public function cekResi(){
+        return view('pages.cek-resi');
     }
 }
