@@ -29,11 +29,9 @@ Route::prefix('admin')->middleware(['auth', 'isAdmin'])->group(function () {
     Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
     Route::resource('product', ProductController::class);
-    Route::resource('blog', BlogController::class);
     Route::resource('testimonial', TestimonialController::class);
 
     Route::get('get-product', [ProductController::class, 'getData'])->name('productData');
-    Route::get('get-blog', [BlogController::class, 'getData'])->name('blogData');
     Route::get('get-testimonial', [TestimonialController::class, 'getData'])->name('testimonialData');
 });
 

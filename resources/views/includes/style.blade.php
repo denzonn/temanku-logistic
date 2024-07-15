@@ -4,5 +4,5 @@
 <script src="https://cdn.datatables.net/2.0.2/js/dataTables.js"></script>
 <script src="https://cdn.ckeditor.com/ckeditor5/41.2.1/classic/ckeditor.js"></script>
 
-@vite('resources/css/app.css')
-{{--  <link rel="stylesheet" href="{{ asset('build/assets/app-h2QWUAfu.css') }}">  --}}
+{{--  @vite('resources/css/app.css')  --}}
+<link rel="stylesheet" href="{{ asset('build/assets/app-CEHqoKMu.css') }}">

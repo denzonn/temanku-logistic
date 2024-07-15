@@ -12,10 +12,6 @@
             <i class="fa-solid fa-dolly pr-1"></i><a href="/admin/product" class="p-0"> Product</a>
         </li>
         <li
-            class="{{ request()->is('admin/blog*') ? 'bg-primary text-white' : '' }} py-2 px-6 rounded-md  hover:bg-primary hover:text-white transition flex flex-row items-center gap-3">
-            <i class="fa-brands fa-blogger-b text-lg pr-1"></i><a href="/admin/blog" class="p-0"> Blog</a>
-        </li>
-        <li
             class="{{ request()->is('admin/testimonial*') ? 'bg-primary text-white' : '' }} py-2 px-6 rounded-md  hover:bg-primary hover:text-white transition flex flex-row items-center gap-2">
             <i class="fa-solid fa-comments text-sm pr-1"></i><a href="/admin/testimonial" class="p-0"> Testimoni</a>
         </li>
