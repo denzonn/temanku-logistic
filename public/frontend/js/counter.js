@@ -47,6 +47,12 @@ const runAnimations = () => {
 	countupEls.forEach( animateCountUp );
 };
 
+// whatsapp elementor
+// scripts.js
+document.querySelector('.whatsapp-link').addEventListener('click', function() {
+    console.log('WhatsApp link clicked');
+    // Anda bisa menambahkan logika tambahan di sini jika diperlukan
+});
 
 
 

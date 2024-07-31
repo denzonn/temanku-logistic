@@ -5,22 +5,16 @@
 @endsection
 
 @section('content')
-    <div class="hero overlay">
-        <img src="images/blob.svg" alt="" class="img-fluid blob">
+    <div class="section sec-cta overlay" style="background-image: url('images/gambar3.jpg')">
         <div class="container">
-            <div class="row align-items-center justify-content-between pt-5">
-                <div class="col-lg-6 text-center text-lg-start pe-lg-5">
+            <div class="row align-items-center justify-content-center pt-5">
+                <div class="col-lg-6 text-center pe-lg-5">
                     <h1 class="heading text-white mb-3" data-aos="fade-up">Pengiriman Barang dan Kendaraan Mulai Rp.3.500/Kg
                     </h1>
-                    <p class="text-white mb-5" data-aos="fade-up" data-aos-delay="100">Solusi terbaik pengiriman Anda!</p>
-                    <div class="align-items-center mb-5 mm" data-aos="fade-up" data-aos-delay="200">
+                    <p class="text-white mb-4" data-aos="fade-up" data-aos-delay="100">Tepat Mantap!</p>
+                    <div class="align-items-center mb-4 mm" data-aos="fade-up" data-aos-delay="200">
                         <a href="https://wa.me/message/VCWHU6KIILNPF1" class="btn btn-outline-white-reverse me-4">Hubungi
                             Segera</a>
-                    </div>
-                </div>
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-                    <div class="img-wrap">
-                        <img src="images/gambar1.jpg" alt="Image" class="img-fluid rounded">
                     </div>
                 </div>
             </div>
@@ -106,7 +100,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 order-lg-2 mb-4 mb-lg-0">
-                    <img src="{{ asset('images/proper_temanku.png') }}" alt="Image" class="img-fluid rounded">
+                    <img src="images/proper_temanku.png" alt="Image" class="img-fluid rounded">
                 </div>
                 <div class="col-lg-5 pe-lg-5">
                     <div class="mb-5">
@@ -127,6 +121,7 @@
         </div>
     </div>
     </div>
+
 
     <div class="section sec-services">
         <div class="container">
@@ -226,7 +221,7 @@
             <div id="post-slider" class="post-slider">
                 <div class="item">
                     <a href="case-study.html" class="card d-block">
-                        <img src="{{ asset('images/closing1.png') }}" class="card-img-top" alt="Image">
+                        <img src="images/closing1.png" class="card-img-top" alt="Image">
                         <div class="card-body">
                             <h5 class="card-title">Pengiriman Barang & Kendaraan</h5>
                         </div>
@@ -235,7 +230,7 @@
 
                 <div class="item">
                     <a href="case-study.html" class="card">
-                        <img src="{{ asset('images/closing2.png') }}" class="card-img-top" alt="Image">
+                        <img src="images/closing2.png" class="card-img-top" alt="Image">
                         <div class="card-body">
                             <h5 class="card-title">Pengiriman Skincare & Kosmetik</h5>
                         </div>
@@ -244,7 +239,7 @@
 
                 <div class="item">
                     <a href="case-study.html" class="card">
-                        <img src="{{ asset('images/closing3.png') }}" class="card-img-top" alt="Image">
+                        <img src="images/closing3.png" class="card-img-top" alt="Image">
                         <div class="card-body">
                             <h5 class="card-title">Pindahan Rumah/Tugas</h5>
                         </div>
@@ -253,7 +248,7 @@
 
                 <div class="item">
                     <a href="case-study.html" class="card">
-                        <img src="{{ asset('images/closing4.png') }}" class="card-img-top" alt="Image">
+                        <img src="images/closing4.png" class="card-img-top" alt="Image">
                         <div class="card-body">
                             <h5 class="card-title">Pengiriman Motor</h5>
                         </div>
@@ -262,7 +257,7 @@
 
                 <div class="item">
                     <a href="case-study.html" class="card">
-                        <img src="{{ asset('images/closing5.png') }}" class="card-img-top" alt="Image">
+                        <img src="images/closing5.png" class="card-img-top" alt="Image">
                         <div class="card-body">
                             <h5 class="card-title">Pengiriman Mobil</h5>
                         </div>
@@ -286,7 +281,7 @@
                 <div class="testimonial-slider" id="testimonial-slider">
                     <div class="item">
                         <div class="testimonial-half d-lg-flex bg-white">
-                            <div class="img" style="background-image: url('images/img-4.jpg')">
+                            <div class="img" style="background-image: url('images/Terios.jpeg')">
 
                             </div>
                             <div class="text">
@@ -295,8 +290,8 @@
                                         dalam meemriksa kendaraan.</p>
                                 </blockquote>
                                 <div class="author">
-                                    <strong class="d-block text-black">Haspo Joni</strong>
-                                    <span>Pengiriman Mobil Medan-Manado</span>
+                                    <strong class="d-block text-black">Pengiriman Jakarta >> Jayapura</strong>
+                                    <span>Mobil Terios</span>
                                 </div>
                             </div>
                         </div>
@@ -304,17 +299,16 @@
 
                     <div class="item">
                         <div class="testimonial-half d-lg-flex bg-white">
-                            <div class="img" style="background-image: url('images/img-3.jpg')">
+                            <div class="img" style="background-image: url('images/CDD.jpeg')">
 
                             </div>
                             <div class="text">
                                 <blockquote>
-                                    <p>Siap berkomunikasi hingga larut malam dan memberi informasi jelas kepada konsumen.
-                                    </p>
+                                    <p>Siap berkomunikasi dan memberi informasi jelas kepada konsumen.</p>
                                 </blockquote>
                                 <div class="author">
-                                    <strong class="d-block text-black">Wahyudi</strong>
-                                    <span>Pengiriman Barang Makassar-Jakarta</span>
+                                    <strong class="d-block text-black">Pengiriman Rute Jakarta >> Makassar</strong>
+                                    <span>Truck CDD Box</span>
                                 </div>
                             </div>
                         </div>
@@ -322,7 +316,24 @@
 
                     <div class="item">
                         <div class="testimonial-half d-lg-flex bg-white">
-                            <div class="img" style="background-image: url('images/img-2.jpg')">
+                            <div class="img" style="background-image: url('images/Brio.jpeg')">
+
+                            </div>
+                            <div class="text">
+                                <blockquote>
+                                    <p>Estimasinya pas Via Darat Car Carrier</p>
+                                </blockquote>
+                                <div class="author">
+                                    <strong class="d-block text-black">Pengiriman Rute Makassar >> Gorontalo</strong>
+                                    <span>Mobil Honda Brio</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="testimonial-half d-lg-flex bg-white">
+                            <div class="img" style="background-image: url('images/Soul\ GT.jpeg')">
 
                             </div>
                             <div class="text">
@@ -330,8 +341,8 @@
                                     <p>Menjaga barang aman dan amanah sampai ke tujuan</p>
                                 </blockquote>
                                 <div class="author">
-                                    <strong class="d-block text-black">Muh Abi</strong>
-                                    <span>Pengiriman Motor dan Barang Jakarta-Makassar</span>
+                                    <strong class="d-block text-black">Pengiriman Rute Makassar >> Palu</strong>
+                                    <span>Motor Soul GT</span>
                                 </div>
                             </div>
                         </div>

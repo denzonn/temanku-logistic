@@ -888,7 +888,7 @@
   background-color: transparent !important; }
 
 .bg-gradient {
-  background-image: var(--bs-gradient) !important; }
+  background-image: transparent !important; }
 
 .text-wrap {
   white-space: normal !important; }

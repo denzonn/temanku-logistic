@@ -5,8 +5,7 @@
 @endsection
 
 @section('content')
-    <div class="hero overlay inner-page">
-        <img src="images/blob.svg" alt="" class="img-fluid blob">
+    <div class="section sec-cta overlay" style="background-image: url('images/gambar3.jpg')">
         <div class="container">
             <div class="row align-items-center justify-content-center pt-5">
                 <div class="col-lg-6 text-center pe-lg-5">
@@ -257,11 +256,12 @@
 
             </div>
 
+
             <div class="testimonial-slider-wrap">
                 <div class="testimonial-slider" id="testimonial-slider">
                     <div class="item">
                         <div class="testimonial-half d-lg-flex bg-white">
-                            <div class="img" style="background-image: url('images/img-4.jpg')">
+                            <div class="img" style="background-image: url('images/Terios.jpeg')">
 
                             </div>
                             <div class="text">
@@ -270,8 +270,8 @@
                                         dalam meemriksa kendaraan.</p>
                                 </blockquote>
                                 <div class="author">
-                                    <strong class="d-block text-black">Haspo Joni</strong>
-                                    <span>Pengiriman Mobil Medan-Manado</span>
+                                    <strong class="d-block text-black">Pengiriman Jakarta >> Jayapura</strong>
+                                    <span>Mobil Terios</span>
                                 </div>
                             </div>
                         </div>
@@ -279,17 +279,16 @@
 
                     <div class="item">
                         <div class="testimonial-half d-lg-flex bg-white">
-                            <div class="img" style="background-image: url('images/img-3.jpg')">
+                            <div class="img" style="background-image: url('images/CDD.jpeg')">
 
                             </div>
                             <div class="text">
                                 <blockquote>
-                                    <p>Siap berkomunikasi hingga larut malam dan memberi informasi jelas kepada konsumen.
-                                    </p>
+                                    <p>Siap berkomunikasi dan memberi informasi jelas kepada konsumen.</p>
                                 </blockquote>
                                 <div class="author">
-                                    <strong class="d-block text-black">Wahyudi</strong>
-                                    <span>Pengiriman Barang Makassar-Jakarta</span>
+                                    <strong class="d-block text-black">Pengiriman Rute Jakarta >> Makassar</strong>
+                                    <span>Truck CDD Box</span>
                                 </div>
                             </div>
                         </div>
@@ -297,7 +296,24 @@
 
                     <div class="item">
                         <div class="testimonial-half d-lg-flex bg-white">
-                            <div class="img" style="background-image: url('images/img-2.jpg')">
+                            <div class="img" style="background-image: url('images/Brio.jpeg')">
+
+                            </div>
+                            <div class="text">
+                                <blockquote>
+                                    <p>Estimasinya pas Via Darat Car Carrier</p>
+                                </blockquote>
+                                <div class="author">
+                                    <strong class="d-block text-black">Pengiriman Rute Makassar >> Gorontalo</strong>
+                                    <span>Mobil Honda Brio</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="testimonial-half d-lg-flex bg-white">
+                            <div class="img" style="background-image: url('images/Soul\ GT.jpeg')">
 
                             </div>
                             <div class="text">
@@ -305,61 +321,10 @@
                                     <p>Menjaga barang aman dan amanah sampai ke tujuan</p>
                                 </blockquote>
                                 <div class="author">
-                                    <strong class="d-block text-black">Muh Abi</strong>
-                                    <span>Pengiriman Motor dan Barang Jakarta-Makassar</span>
+                                    <strong class="d-block text-black">Pengiriman Rute Makassar >> Palu</strong>
+                                    <span>Motor Soul GT</span>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="section sec-news">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-lg-7">
-                    <h2 class="heading text-primary">Latest News</h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="card post-entry">
-                        <img src="images/img-1.jpg" class="card-img-top" alt="Image">
-                        <div class="card-body">
-                            <div><span class="text-uppercase font-weight-bold date">Jan 20, 2021</span></div>
-                            <h5 class="card-title"><a href="#">Behind the word mountains</a></h5>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                                there live the blind texts. </p>
-                            <p class="mt-5 mb-0"><a href="#">Read more</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="card post-entry">
-                        <img src="images/img-2.jpg" class="card-img-top" alt="Image">
-                        <div class="card-body">
-                            <div><span class="text-uppercase font-weight-bold date">Jan 20, 2021</span></div>
-                            <h5 class="card-title"><a href="#">Behind the word mountains</a></h5>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                                there live the blind texts. </p>
-                            <p class="mt-5 mb-0"><a href="#">Read more</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="card post-entry">
-                        <img src="images/img-3.jpg" class="card-img-top" alt="Image">
-                        <div class="card-body">
-                            <div><span class="text-uppercase font-weight-bold date">Jan 20, 2021</span></div>
-                            <h5 class="card-title"><a href="#">Behind the word mountains</a></h5>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                                there live the blind texts. </p>
-                            <p class="mt-5 mb-0"><a href="#">Read more</a></p>
                         </div>
                     </div>
                 </div>

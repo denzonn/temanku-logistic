@@ -5,8 +5,7 @@
 @endsection
 
 @section('content')
-    <div class="hero overlay inner-page">
-        <img src="images/blob.svg" alt="" class="img-fluid blob">
+    <div class="section sec-cta overlay" style="background-image: url('images/gambar3.jpg')">
         <div class="container">
             <div class="row align-items-center justify-content-center text-center pt-5">
                 <div class="col-lg-6">
@@ -16,6 +15,7 @@
             </div>
         </div>
     </div>
+
 
     <div class="section">
         <div class="container">
@@ -33,7 +33,7 @@
                         <div class="open-hours mt-4">
                             <i class="icon-clock-o"></i>
                             <h4 class="mb-2">JAM OPERASIONAL</h4>
-                            <p>09:00<br>18:00</p>
+                            <p>09:00 - 18:00</p>
                         </div>
 
                         <div class="email mt-4">
@@ -45,8 +45,7 @@
                         <div class="phone mt-4">
                             <i class="icon-phone"></i>
                             <h4 class="mb-2">Call:</h4>
-                            <a href="https://wa.me/message/VCWHU6KIILNPF1" class="call-us d-flex align-items-center">
-                                <p>0853 9893 2121</p>
+                            <p>0853 9893 2121</p>
                             </a>
                         </div>
 

@@ -89,8 +89,8 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
   .site-logo{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
 hr {
   margin: 1rem 0;
@@ -222,6 +222,35 @@ samp {
   font-size: 1em;
   direction: ltr /* rtl:ignore */;
   unicode-bidi: bidi-override; }
+
+  /* Mengatur styling dasar untuk input-container */
+.input-container {
+  display: center;
+  align-items: flex;
+}
+
+.input-container input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px; 
+  outline: none;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-left: center;
+  border-radius: 0 4px 4px 0;
+  background-color: #306EE8;
+  color: white;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #FD0103;
+}
 
 pre {
   display: block;
@@ -9784,7 +9813,7 @@ textarea {
     .hero.overlay:before {
       display: none;
       background-color: rgba(0, 0, 0, 0.4);
-      content: "";
+      content: ('');
       position: absolute;
       left: 0;
       right: 0;
@@ -9878,6 +9907,26 @@ textarea {
   .service h3, .service .h3 {
     color: #000;
     font-size: 18px; }
+
+/* styles.css */
+.whatsapp-widget {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: rgb(grey, green, blue);
+  border-radius: 60%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp-link img {
+  width: 60px;
+  height: 60px;
+}
 
 .sec-cta {
   background-size: cover;
