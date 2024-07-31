@@ -14,5 +14,9 @@ class Product extends Model
         'resi',
         'photo',
         'status',
+        'asal_pengiriman',
+        'jumlah',
+        'tujuan_pengiriman',
+        'keterangan',
     ];
 }

@@ -31,6 +31,29 @@
                             class="w-full border px-4 py-2 rounded-md bg-transparent" required />
                     </div>
                 </div>
+                <div class="grid grid-cols-3 gap-4 mt-6">
+                    <div class="flex flex-col gap-2">
+                        <label for="">Kota Asal Pengiriman</label>
+                        <input type="text" placeholder="Enter Kota Asal Pengiriman...." name="asal_pengiriman"
+                            class="w-full border px-4 py-2 rounded-md bg-transparent" required />
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label for="">Kota Tujuan Pengiriman</label>
+                        <input type="text" placeholder="Enter Kota Tujuan Pengiriman...." name="tujuan_pengiriman"
+                            class="w-full border px-4 py-2 rounded-md bg-transparent" required />
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label for="">Jumlah Barang</label>
+                        <input type="number" placeholder="Enter Jumlah Barang....." name="jumlah"
+                            class="w-full border px-4 py-2 rounded-md bg-transparent" required />
+                    </div>
+                </div>
+                <div class="mt-6">
+                    <div class="flex flex-col gap-2">
+                        <label for="">Keterangan</label>
+                        <textarea name="keterangan" id="editor" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
                 <div class="grid grid-cols-2 gap-4">
                     <div class="mt-6 flex flex-col gap-2">
                         <label for="">Product Photo</label>

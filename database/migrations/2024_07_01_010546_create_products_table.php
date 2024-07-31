@@ -17,6 +17,10 @@ return new class extends Migration
             $table->string('resi');
             $table->string('photo');
             $table->enum('status', ['Dalam pengiriman', 'Pengemasan', 'Telah Sampai']);
+            $table->integer('jumlah');
+            $table->string('asal_pengiriman');
+            $table->string('tujuan_pengiriman');
+            $table->longText('keterangan');
             $table->timestamps();
         });
     }
