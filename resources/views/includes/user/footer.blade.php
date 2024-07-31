@@ -26,6 +26,13 @@
             </div>
         </div>
 
+        <div class="whatsapp-widget">
+            <a href="https://wa.me/message/VCWHU6KIILNPF1" target="_blank" class="whatsapp-link">
+                <img src="images/whatsapp_logo.png" alt="WhatsApp">
+            </a>
+        </div>
+        <script src="counter.js"></script>
+
         <div class="row mt-5">
             <div class="col-12 text-center">
                 <p>Copyright &copy;
@@ -36,7 +43,6 @@
         </div>
     </div>
 </div>
-
 <div id="overlayer"></div>
 <div class="loader">
     <div class="spinner-border text-primary" role="status">
