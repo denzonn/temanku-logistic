@@ -24,6 +24,7 @@ Route::get('/service', [HomeController::class, 'service'])->name('service');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/cek-resi', [HomeController::class, 'cekResi'])->name('cek-resi');
+Route::post('/cek-resi', [HomeController::class, 'checkResi'])->name('cek-resi.check');
 
 Route::prefix('admin')->middleware(['auth', 'isAdmin'])->group(function () {
     Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
