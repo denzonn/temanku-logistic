@@ -27,24 +27,26 @@
                 </div>
             </div>
         </form>
-        @if (isset($product))
-            @if ($product)
+        @if (request()->isMethod('post'))
+            @if (isset($product))
+                @if ($product)
+                    <div class="row align-items-center justify-content-center text-center pt-2 pb-5">
+                        <div class="col-lg-6">
+                            <h2>Detail Pengiriman</h2>
+                            <p><strong>Nama:</strong> {{ $product->name }}</p>
+                            <p><strong>Nomor Resi:</strong> {{ $product->resi }}</p>
+                            <p><strong>Status:</strong> {{ $product->status }}</p>
+                            <p><img src="{{ asset('storage/' . $product->photo) }}" alt="Photo" width="200"></p>
+                        </div>
+                    </div>
+                @endif
+            @else
                 <div class="row align-items-center justify-content-center text-center pt-2 pb-5">
                     <div class="col-lg-6">
-                        <h2>Detail Pengiriman</h2>
-                        <p><strong>Nama:</strong> {{ $product->name }}</p>
-                        <p><strong>Nomor Resi:</strong> {{ $product->resi }}</p>
-                        <p><strong>Status:</strong> {{ $product->status }}</p>
-                        <p><img src="{{ asset('storage/' . $product->photo) }}" alt="Photo" width="200"></p>
+                        <h2>Nomor resi tidak ditemukan</h2>
                     </div>
                 </div>
             @endif
-        @else
-            <div class="row align-items-center justify-content-center text-center pt-2 pb-5">
-                <div class="col-lg-6">
-                    <h2>Nomor resi tidak ditemukan</h2>
-                </div>
-            </div>
         @endif
     </div>
 @endsection
