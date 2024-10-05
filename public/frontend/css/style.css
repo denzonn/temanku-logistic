@@ -13618,3 +13618,29 @@ textarea {
         margin-bottom: 1rem;
     }
 }
+
+.search-box .search {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.search-box .search input {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #f9f9ff;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+}
+
+.search-box .search button {
+    background-color: #023458;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: none;
+}

@@ -30,13 +30,13 @@
                             class="px-6 py-3 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider w-2/12">
                             Foto</th>
                         <th scope="col"
-                            class="px-6 py-3 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider w-4/12">
+                            class="px-6 py-3 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider w-3/12">
                             Nama</th>
                         <th scope="col"
                             class="px-6 py-3 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider w-3/12">
                             Resi</th>
                         <th scope="col"
-                            class="px-6 py-3 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider w-2/12">
+                            class="px-6 py-3 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider w-3/12">
                             Status</th>
                         <th scope="col"
                             class="px-6 py-3 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -80,6 +80,18 @@
                     {
                         data: 'status',
                         name: 'status',
+                        render: function(data, type, row, meta) {
+                            let bgColor = ''; // Default empty color
+                            if (data === 'Pengemasan') {
+                                bgColor = 'bg-yellow-500'; // Warna kuning untuk pengemasan
+                            } else if (data === 'Dalam Pengiriman') {
+                                bgColor = 'bg-blue-500'; // Warna biru untuk dalam pengiriman
+                            } else if (data === 'Telah Sampai') {
+                                bgColor = 'bg-green-500'; // Warna hijau untuk telah sampai
+                            }
+
+                            return `<span class="px-3 py-1 rounded-md text-white ${bgColor}">${data}</span>`;
+                        }
                     },
                     {
                         data: 'id',
