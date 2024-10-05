@@ -16,11 +16,13 @@
     <div class="mt-6 text-xl mb-4 font-semibold text-gray-500">
         Status Pengiriman
     </div>
-    @foreach ($statusCounts as $status)
-        <div class="bg-white p-8 rounded-md text-gray-500 w-fit">
+    <div class="grid grid-cols-4 gap-8">
+        @foreach ($statusCounts as $status)
+        <div class="bg-white p-8 rounded-md text-gray-500 w-full">
             <div class="text-2xl font-semibold">{{ $status->status }}</div>
             <div class="text-6xl font-semibold">{{ $status->total }} <span class="text-lg font-medium">data</span>
             </div>
         </div>
     @endforeach
+    </div>
 @endsection
